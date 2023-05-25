@@ -4,7 +4,8 @@ const { studentService } = require("../services/index");
 
 exports.registerUser = async (req, res, next) => {
     try {
-        console.log(req.body);
+        // console.log(req.body);
+        console.log(req.admin)
 
         let reqBody = req.body;
 
